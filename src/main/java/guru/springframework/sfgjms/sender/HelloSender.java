@@ -31,7 +31,7 @@ public class HelloSender {
 
         jmsTemplate.convertAndSend(JmsConfig.MY_QUEUE, message);
 
-        System.out.println("Message Sent!");
+        System.out.println("Message Sent! " + message);
 
     }
 
